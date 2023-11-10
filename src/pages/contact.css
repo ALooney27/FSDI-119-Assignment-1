@@ -1,0 +1,48 @@
+.contact  {
+    min-height: calc(100vh - 276px);
+    background-color: rgb(103, 104, 121);
+}
+
+.contact form {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact input {
+    width: 35%;
+    height: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contact textarea {
+    max-width: 25%;
+    min-width: 25%;
+    width: 50%;
+    max-height: 125px;
+    min-height: 125px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contact input[type="submit"] {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 10%;
+}
+
+.contact p {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    font-weight: bold;
+    font-size: larger;
+    width: 75%;
+}
